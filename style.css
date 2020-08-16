@@ -1,0 +1,80 @@
+/*trang này là css dùng để điều chỉnh căn chỉnh hoặc thêm màu mè cho cái web*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+body{
+    font-family: 'Open Sans', sans-serif;/*font chữ*/
+    background:rgb(252, 167, 181);/*nền web*/
+}
+.login-page{
+    top: 15%;
+    width: 360px;
+    padding: 7% 10% 0%;
+    margin-top: 0%;
+}
+.form{
+    position: relative;
+    z-index: 1;
+    background: #faf395;
+    max-width: 450px;
+    margin: 0 auto 50px;
+    padding: center;
+    box-shadow: 0 0 100px 0 rgb(185, 181, 181), 0 5px 5px 0 gray;
+}
+.form input {
+    text-transform: uppercase;
+    outline: 0;
+    background: #bbf8bd;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: rgb(233, 176, 176);
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+.form-buttom{
+    border-radius: 50px;
+    margin-top: 10%;
+    text-transform: uppercase;
+    outline: 0;
+    background: #af3b05;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #ffffff;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+.form-buttom:hover,.form button:active,.form button:focus{
+background: #43A047;
+}
+.form .messange{
+    color: #b3b3b3;
+    font-size: 20px;
+}
+.form .messange{
+    color: #43A047;
+    text-decoration: turquoise;
+}
+.form .register-form{
+    display: none;
+}
+.container:before,.container:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.container .infor{
+    margin:  0 0 15px;
+    text-align: center;
+}
+.container .info h1{
+    margin: 0 0 15px;
+    padding: 0;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1a1a1a;
+}
+
